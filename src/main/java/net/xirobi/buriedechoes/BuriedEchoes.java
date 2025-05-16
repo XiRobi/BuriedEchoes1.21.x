@@ -2,6 +2,7 @@ package net.xirobi.buriedechoes;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.xirobi.buriedechoes.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,5 +12,6 @@ public class BuriedEchoes implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 }
